@@ -1,0 +1,12 @@
+import { NextRequest, NextResponse } from 'next/server';
+export declare function POST(request: NextRequest): Promise<NextResponse<{
+    error: string;
+}> | NextResponse<{
+    success: boolean;
+    message: string;
+    timestamp: string;
+}>>;
+export declare function GET(): Promise<NextResponse<{
+    usage: string;
+    examples: string[];
+}>>;
