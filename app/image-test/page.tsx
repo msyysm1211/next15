@@ -12,7 +12,7 @@ export default function ImageTestPage() {
           alt="Responsive test image"
           width={640}
           height={400}
-          quality={75}
+          quality={50}
           style={{ borderRadius: '8px' }}
         />
       </section>
@@ -25,7 +25,7 @@ export default function ImageTestPage() {
             alt="Medium test image"
             width={320}
             height={240}
-            quality={75}
+            quality={69}
             style={{ borderRadius: '8px' }}
           />
           <Image
@@ -33,7 +33,7 @@ export default function ImageTestPage() {
             alt="Small test image"
             width={10}
             height={10}
-            quality={75}
+            quality={72}
             style={{ borderRadius: '8px' }}
           />
         </div>
