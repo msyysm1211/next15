@@ -8,6 +8,7 @@ const nextConfig = {
       { hostname: 'zos.alipayobjects.com' },
       { hostname: 'gw.alipayobjects.com' },
     ],
+    qualities: [25, 50, 65, 69, 71, 72, 75, 100],
   },
 };
 
