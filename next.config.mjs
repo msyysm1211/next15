@@ -4,7 +4,10 @@ const nextConfig = {
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
   images: {
-    remotePatterns: [{ hostname: 'picsum.photos' }],
+    remotePatterns: [
+      { hostname: 'zos.alipayobjects.com' },
+      { hostname: 'gw.alipayobjects.com' },
+    ],
   },
 };
 
