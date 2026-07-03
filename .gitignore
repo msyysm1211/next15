@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Next.js
+.next/
+.open-next/
+.pcg-local/
+out/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
