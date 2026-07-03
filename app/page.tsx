@@ -1,28 +1,28 @@
-export const revalidate = 60;
+export const revalidate = 10;
 
 export default function Home() {
   return (
-    <main style={{ padding: '2rem' }}>
-      <h1>首页 (ISR — revalidate: 60s)</h1>
+    <main style={{ padding: "2rem" }}>
+      <h1>首页 (ISR — revalidate: 10s)</h1>
       <p>Next.js 15 + React 19 | Powered by Pages Cache Gateway</p>
       <p>构建时间: {new Date().toISOString()}</p>
       <p>本页面测试通过 Gateway OSS proxy 的 incremental cache 读写路径。</p>
 
       <section
         style={{
-          marginTop: '2rem',
-          padding: '1.5rem',
-          background: '#f0f7ff',
-          borderRadius: '8px',
-          border: '1px solid #b3d4fc',
+          marginTop: "2rem",
+          padding: "1.5rem",
+          background: "#f0f7ff",
+          borderRadius: "8px",
+          border: "1px solid #b3d4fc",
         }}
       >
-        <h2 style={{ margin: '0 0 1rem' }}>功能演示列表</h2>
+        <h2 style={{ margin: "0 0 1rem" }}>功能演示列表</h2>
         <ul style={{ lineHeight: 2 }}>
           <li>
             <a href="/revalidate-demo">
               <strong>Revalidate Tag / Path 演示</strong>
-            </a>{' '}
+            </a>{" "}
             — 测试 revalidateTag 和 revalidatePath 的按需刷新
           </li>
           <li>
